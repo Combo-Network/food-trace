@@ -1,0 +1,34 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, figure, /*结构元素*/
+dl, dt, dd, ul, ol, li, /*列表元素*/
+fieldset, lengend, button, input, textarea, /*表单元素*/
+th, td, /*表格元素*/
+pre /*文本格式元素*/ {
+    margin: 0;
+}
+
+ul, ol, menu {
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    /* text-decoration: underline; */
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
